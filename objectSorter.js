@@ -1,4 +1,4 @@
-/* objectSorter by Cyrus Smith (http://coding-contemplation.blogspot.com)
+/* objectSorter by Cyrus Smith (http://coding-contemplation.blogspot.com) (https://github.com/smithcyr)
  * with the structure of the plugin inspired by 
  * http://coding.smashingmagazine.com/2011/10/11/essential-jquery-plugin-patterns/
  * 
