@@ -71,7 +71,6 @@
             
             // create table headers and bind sorting event to clicks for each respective header
             if ('sortby' in base.options) {
-                $('head').append('<link rel="stylesheet" href="' + cssDirectory + 'objectSorter.css" />');
                 base.head = $(document.createElement('ul')).addClass("objs_header");
                 // create header for each sorting column
                 for (var key in base.options.sortby) {
