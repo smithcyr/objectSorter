@@ -3,6 +3,8 @@ objectSorter
 
 A jQuery plugin to facilitate the sorting of multiple HTML elements by their respective child elements.
 
+http://smithcyr.github.io/objectSorter/
+
 <pre>
 (function($) {
   $('#roster').objectSorter( 
@@ -21,41 +23,36 @@ A jQuery plugin to facilitate the sorting of multiple HTML elements by their res
     
 ```html
 <pre>
-<div id="roster" class="objs_table" style="display: table;">
-    <ul class="objs_header">
-	    <li class="objs_cell sortable" data-key="player_name" scope="col"><span>Name</span><span class="sorting-indicator"></span></li>
-	    <li class="objs_cell sortable" data-key="player_class_year" scope="col"><span>Class</span><span class="sorting-indicator"></span></li>
-	    <li class="objs_cell sortable" data-key="player_captain" scope="col"><span>Captain</span><span class="sorting-indicator"></span></li>
-    </ul>
-    <div class="player objs_row">
-	    <a class="player_name objs_cell" href="#">Malachi Wickman</a>
-	    <div class="player_class_year objs_cell">2016</div>
-	    <div class="player_captain objs_cell"></div>
+<div id="roster">
+    <div class="player">
+	    <a class="player_name" href="#">Malachi Wickman</a>
+	    <div class="player_class_year">2016</div>
+	    <div class="player_captain"></div>
     </div>
-    <div class="player objs_row">
-	    <a class="player_name objs_cell" href="#">Marissa Yetter</a>
-	    <div class="player_class_year objs_cell">2016</div>
-	    <div class="player_captain objs_cell"></div>
+    <div class="player">
+	    <a class="player_name" href="#">Marissa Yetter</a>
+	    <div class="player_class_year">2016</div>
+	    <div class="player_captain"></div>
     </div>
-    <div class="player objs_row">
-	    <a class="player_name objs_cell" href="#">Mia Ritter</a>
-	    <div class="player_class_year objs_cell">2015</div>
-	    <div class="player_captain objs_cell"></div>
+    <div class="player">
+	    <a class="player_name" href="#">Mia Ritter</a>
+	    <div class="player_class_year">2015</div>
+	    <div class="player_captain"></div>
     </div>
-    <div class="player objs_row">
-	    <a class="player_name objs_cell" href="#">Nina Lopez</a>
-	    <div class="player_class_year objs_cell">2016</div>
-	    <div class="player_captain objs_cell"></div>
+    <div class="player">
+	    <a class="player_name" href="#">Nina Lopez</a>
+	    <div class="player_class_year">2016</div>
+	    <div class="player_captain"></div>
     </div>
-    <div class="player objs_row">
-	    <a class="player_name objs_cell" href="#">Rebecca Salter</a>
-	    <div class="player_class_year objs_cell">2015</div>
-	    <div class="player_captain objs_cell"></div>
+    <div class="player">
+	    <a class="player_name" href="#">Rebecca Salter</a>
+	    <div class="player_class_year">2015</div>
+	    <div class="player_captain"></div>
     </div>
-    <div class="player objs_row">
-	    <a class="player_name objs_cell" href="#">Talora Martin</a>
-	    <div class="player_class_year objs_cell">2015</div>
-	    <div class="player_captain objs_cell"></div>
+    <div class="player">
+	    <a class="player_name" href="#">Talora Martin</a>
+	    <div class="player_class_year">2015</div>
+	    <div class="player_captain"></div>
     </div>
 </div>
 </pre>
