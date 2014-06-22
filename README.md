@@ -22,7 +22,6 @@ http://smithcyr.github.io/objectSorter/
 </pre>
     
 ```html
-<pre>
 <div id="roster">
     <div class="player">
 	    <a class="player_name" href="#">Malachi Wickman</a>
@@ -55,5 +54,4 @@ http://smithcyr.github.io/objectSorter/
 	    <div class="player_captain"></div>
     </div>
 </div>
-</pre>
 ```
