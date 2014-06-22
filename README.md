@@ -3,7 +3,7 @@ objectSorter
 
 A jQuery plugin to facilitate the sorting of multiple HTML elements by their respective child elements.
 
-http://smithcyr.github.io/objectSorter/
+[Example](http://smithcyr.github.io/objectSorter/ "objectChooser Example")
 
 <pre>
 (function($) {
